@@ -1,0 +1,76 @@
+/* Home Page css */
+.home-space{
+    margin: 0rem 5rem;
+}
+.heading-two{
+    color: #6E00BE;
+    font-weight: bolder;
+}
+.home-para{
+    font-size: 1.2rem;
+}
+.heading-one{
+    font-size: 3.3rem;
+    text-align: start;
+}
+.login-btn{
+    background-color: #6E00BE;
+    border: solid 2px #6E00BE;
+    border-radius: 5px;
+    padding: 0.45rem 1rem;
+    text-decoration: none;
+    color: white;
+}
+.button{
+    text-decoration: none;
+    border: white;
+}
+.steps-heading{
+    color: #6E00BE;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.step{
+    background-color: #a649e9;
+    border-radius: 10px;
+    color: white;
+    width: 15rem;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mission{
+    margin: 4rem 0rem;
+    background-color: #d7cbe0;
+    width:100%;
+    color: black;
+}
+.icons-seeker{
+    color: #a649e9;
+    font-size: 1.6rem;
+}
+.seeker-row{
+    margin-top: 7rem;
+}
+.seeker-part{
+    line-height: 2;
+}
+.seeker-col{
+    height: 500px;
+}
+.seeker-btn{
+    background-color: #6E00BE;
+   border: solid 2px #6E00BE;
+   border-radius: 5px;
+   padding: 0.55rem 2rem;
+   color: white;
+}
+.seeker-Link{
+    text-decoration: none;
+    color: white;
+}
+.seeker-img{
+    height: 500px;
+}
