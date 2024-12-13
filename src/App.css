@@ -2,6 +2,6 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Faculty Glyphic", sans-serif;
-
+  /* font-family: "Faculty Glyphic", sans-serif; */
+  font-family: 'Times New Roman', Times, serif;
 }

@@ -12,6 +12,10 @@ import AddJobpost from './pages/AddJobpost'
 import ViewJobDetails from './pages/ViewJobDetails'
 import CompanyManage from './pages/CompanyManage'
 import ViewApplicants from './pages/ViewApplicants'
+import AdminLogin from './admin/AdminLogin'
+import AdminDashboard from './admin/AdminDashboard'
+import FAQManagement from './admin/FAQManagement'
+import EditJobpost from './pages/EditJobpost'
 
 Footer
 
@@ -22,6 +26,11 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/admin' element={<AdminLogin/>}/>
+        <Route path="/admin-dashboard" element={<AdminDashboard />} />
+        <Route path="/faq-management" element={<FAQManagement />} />
+        <Route path="/" element={<AdminDashboard />} />
+        <Route path="/faq-management" element={<FAQManagement />} />
         <Route path='/login' element={<Auth/>}/>
         <Route path='/register'  element={<Auth insideRegister={true}/>}/>
         <Route path='/userDashboard' element={<UserDashboard/>}/>
@@ -32,7 +41,7 @@ function App() {
         <Route path='/viewjobdetails' element={<ViewJobDetails/>}/>
         <Route path='/companymanage' element={<CompanyManage/>}/>
         <Route path='/viewapplicants' element={<ViewApplicants/>}/>
-
+        <Route path='/editjobpost' element={<EditJobpost/>}/>
 
 
         <Route path='/*' element={<Pnf/>}/>

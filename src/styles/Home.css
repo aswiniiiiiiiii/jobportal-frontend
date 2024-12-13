@@ -1,4 +1,5 @@
 /* Home Page css */
+
 .home-space{
     margin: 0rem 5rem;
 }
@@ -7,28 +8,42 @@
     font-weight: bolder;
 }
 .home-para{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 .heading-one{
-    font-size: 3.3rem;
+    font-size: 3.6rem;
     text-align: start;
 }
 .login-btn{
     background-color: #6E00BE;
-    border: solid 2px #6E00BE;
     border-radius: 5px;
     padding: 0.45rem 1rem;
     text-decoration: none;
     color: white;
 }
+.login-btn:hover{
+  background: linear-gradient(to right,#d9b5f2,#6E00BE);
+}
 .button{
     text-decoration: none;
     border: white;
+    font-size: 1.3rem;
+
+}
+.step-box{
+    height: 350px;
+}
+.step-box:hover {
+    background-color: #a649e9;
+    color: white;
+    /* transform: translateX(-50%); */
+    transition: top 0.4s ease, opacity 0.4s ease;
 }
 .steps-heading{
-    color: #6E00BE;
-    font-weight: bolder;
+    /* color: #; */
+    /* font-weight: bolder; */
     font-size: 2.5rem;
+    padding: 4rem 0px;
 }
 .step{
     background-color: #a649e9;
@@ -62,10 +77,14 @@
 }
 .seeker-btn{
     background-color: #6E00BE;
-   border: solid 2px #6E00BE;
    border-radius: 5px;
-   padding: 0.55rem 2rem;
+   font-size: 1.1rem;
+   padding: 0.30rem 2rem;
    color: white;
+}
+.seeker-btn:hover{
+  background: linear-gradient(to right,#d9b5f2,#6E00BE);
+
 }
 .seeker-Link{
     text-decoration: none;
@@ -74,3 +93,5 @@
 .seeker-img{
     height: 500px;
 }
+
+
