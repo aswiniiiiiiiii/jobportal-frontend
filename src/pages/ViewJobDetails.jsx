@@ -9,7 +9,7 @@ import { viewSingleJobpostContext } from '../contexts/ContextApi';
 import SERVER_URL from '../services/serverURL';
 import { uploadResumeAPI } from '../services/allAPI';
 import UserHeader from '../components/UserHeader';
-import Land from '../assets/land.jpg'
+// import Land from '../assets/land.jpg'
 const ViewJobDetails = () => {
   const { viewSingleJobpost, setViewSingleJobpost } = useContext(viewSingleJobpostContext)
   // const {getJobDetails,setGetJobDetails} = useContext(getJobDetailsContext)
@@ -119,7 +119,10 @@ const ViewJobDetails = () => {
               <p style={{fontSize:'1.3rem'}} className='my-3 '><span style={{color:'#6E00BE'}} className="fw-bolder " ><i className="fa-solid fa-dollar pe-1"></i> Salary: </span> {viewSingleJobpost?.minPrice} - {viewSingleJobpost?.maxPrice}K</p>
               <p  style={{fontSize:'1.3rem'}} className='my-3 '><span style={{color:'#6E00BE'}} className="fw-bolder " > <i className="fa-solid fa-clock pe-1"></i> Employement Type: </span> {viewSingleJobpost?.employmenttype}</p>
               <p style={{fontSize:'1.3rem'}} className='my-3 '><span style={{color:'#6E00BE'}} className="fw-bolder " ><i className="fa-solid fa-school pe-1"></i> Experience: </span> {viewSingleJobpost?.experience}</p>
+
            </div>
+           <p style={{fontSize:'1.3rem'}} className='my-2 '><span style={{color:'#6E00BE'}} className="fw-bolder " ><i className="fa-solid fa-school pe-1"></i> Sills: </span> {viewSingleJobpost?.requirements}</p>
+
            <button onClick={handleShow} style={{ background: '#6E00BE' }} className='px-2 rounded shadow'><Link style={{ textDecoration: 'none', color: 'white' }}>Apply Now</Link></button>
 
             <h6  style={{fontSize:'1.3rem',color:'#6E00BE'}}className="fw-bolder my-3 " >Job Description: </h6>

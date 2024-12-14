@@ -5,7 +5,7 @@ import '../styles/Header.css'
 import logo from '../assets/suitcase.png'
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import profile from '../assets/profile.jpeg'
+import profile from '../assets/profile.png'
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import SERVER_URL from '../services/serverURL';
